@@ -13,6 +13,7 @@
 		248377DC2AF40DB9005829D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248377DA2AF40DB9005829D1 /* Main.storyboard */; };
 		248377DE2AF40DC0005829D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248377DD2AF40DC0005829D1 /* Assets.xcassets */; };
 		248377E12AF40DC0005829D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248377DF2AF40DC0005829D1 /* LaunchScreen.storyboard */; };
+		248377E92AF412C9005829D1 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 248377E82AF412C9005829D1 /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		248377DD2AF40DC0005829D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		248377E02AF40DC0005829D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		248377E22AF40DC0005829D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248377E82AF412C9005829D1 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = Videos/video.mp4; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		248377D32AF40DB9005829D1 /* Advanced Table View */ = {
 			isa = PBXGroup;
 			children = (
+				248377E82AF412C9005829D1 /* video.mp4 */,
 				248377D42AF40DB9005829D1 /* AppDelegate.swift */,
 				248377D62AF40DB9005829D1 /* SceneDelegate.swift */,
 				248377D82AF40DB9005829D1 /* ViewController.swift */,
@@ -128,6 +131,7 @@
 				248377E12AF40DC0005829D1 /* LaunchScreen.storyboard in Resources */,
 				248377DE2AF40DC0005829D1 /* Assets.xcassets in Resources */,
 				248377DC2AF40DB9005829D1 /* Main.storyboard in Resources */,
+				248377E92AF412C9005829D1 /* video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
