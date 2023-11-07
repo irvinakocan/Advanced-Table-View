@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     
@@ -30,6 +31,30 @@ class ViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.allowsSelection = false
+        setTableHeader()
+    }
+    
+    private func setTableHeader() {
+        guard let path = Bundle.main.path(forResource: "video", ofType: "mp4")
+        else {
+            return
+        }
+        let url = URL(fileURLWithPath: path)
+        let player = AVPlayer(url: url)
+        player.volume = 0
+        
+        let headerView = UIView(frame: CGRect(x: 0,
+                                              y: 0,
+                                              width: view.frame.size.width,
+                                              height: view.frame.size.width))
+        
+        let playerLayer = AVPlayerLayer(player: player)
+        playerLayer.frame = headerView.bounds
+        playerLayer.videoGravity = .resizeAspectFill
+        headerView.layer.addSublayer(playerLayer)
+        player.play()
+        
+        tableView.tableHeaderView = headerView
     }
     
     private func setUpModels() {
