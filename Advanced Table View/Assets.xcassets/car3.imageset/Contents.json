@@ -1,7 +1,6 @@
 {
   "images" : [
     {
-      "filename" : "new-jaguar-f-type-r-coupe-awd-sorrento-yellow-13-1595854363.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -10,6 +9,7 @@
       "scale" : "2x"
     },
     {
+      "filename" : "new-jaguar-f-type-r-coupe-awd-sorrento-yellow-13-1595854363.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

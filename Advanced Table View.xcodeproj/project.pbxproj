@@ -16,6 +16,7 @@
 		248377E92AF412C9005829D1 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 248377E82AF412C9005829D1 /* video.mp4 */; };
 		248377EC2AF58472005829D1 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248377EB2AF58472005829D1 /* CollectionTableViewCell.swift */; };
 		248377EE2AF584D3005829D1 /* TableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248377ED2AF584D3005829D1 /* TableCollectionViewCell.swift */; };
+		24CE40FB2AFA8F8A00B2C580 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CE40FA2AFA8F8A00B2C580 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		248377E82AF412C9005829D1 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = Videos/video.mp4; sourceTree = SOURCE_ROOT; };
 		248377EB2AF58472005829D1 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
 		248377ED2AF584D3005829D1 /* TableCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCollectionViewCell.swift; sourceTree = "<group>"; };
+		24CE40FA2AFA8F8A00B2C580 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				248377EA2AF5832C005829D1 /* Cells */,
+				24CE40FA2AFA8F8A00B2C580 /* Models.swift */,
 				248377E82AF412C9005829D1 /* video.mp4 */,
 				248377D42AF40DB9005829D1 /* AppDelegate.swift */,
 				248377D62AF40DB9005829D1 /* SceneDelegate.swift */,
@@ -159,6 +162,7 @@
 				248377D92AF40DB9005829D1 /* ViewController.swift in Sources */,
 				248377D52AF40DB9005829D1 /* AppDelegate.swift in Sources */,
 				248377D72AF40DB9005829D1 /* SceneDelegate.swift in Sources */,
+				24CE40FB2AFA8F8A00B2C580 /* Models.swift in Sources */,
 				248377EE2AF584D3005829D1 /* TableCollectionViewCell.swift in Sources */,
 				248377EC2AF58472005829D1 /* CollectionTableViewCell.swift in Sources */,
 			);
