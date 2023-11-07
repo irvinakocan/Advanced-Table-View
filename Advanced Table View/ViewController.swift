@@ -59,20 +59,22 @@ class ViewController: UIViewController {
     
     private func setUpModels() {
         models.append(.collectionView(models: [
-            CollectionTableCellModel(title: "Car 1", imageName: "car1"),
-            CollectionTableCellModel(title: "Car 2", imageName: "car2"),
-            CollectionTableCellModel(title: "Car 3", imageName: "car3"),
-            CollectionTableCellModel(title: "Car 4", imageName: "car4"),
-            CollectionTableCellModel(title: "Car 5", imageName: "car5"),
-            CollectionTableCellModel(title: "Car 6", imageName: "car6"),
-            CollectionTableCellModel(title: "Car 7", imageName: "car7")], rows: 2))
+            CollectionTableCellModel(title: "BMW 3 Series", imageName: "car1"),
+            CollectionTableCellModel(title: "Hyundai Elantra", imageName: "car2"),
+            CollectionTableCellModel(title: "Jaguar F-Type", imageName: "car3"),
+            CollectionTableCellModel(title: "Mercedes Amg Gt", imageName: "car4"),
+            CollectionTableCellModel(title: "Porsche 911 Junior", imageName: "car5"),
+            CollectionTableCellModel(title: "Porsche 718 Cayman", imageName: "car6"),
+            CollectionTableCellModel(title: "Acura Integra", imageName: "car7")], rows: 2))
         
         models.append(.list(models: [
-            ListCellModel(title: "First thing"),
-            ListCellModel(title: "Second thing"),
-            ListCellModel(title: "Third thing"),
-            ListCellModel(title: "Forth thing"),
-            ListCellModel(title: "Fifth thing")]))
+            ListCellModel(title: "BMW 3 Series"),
+            ListCellModel(title: "Hyundai Elantra"),
+            ListCellModel(title: "Jaguar F-Type"),
+            ListCellModel(title: "Mercedes Amg Gt"),
+            ListCellModel(title: "Porsche 911 Junior"),
+            ListCellModel(title: "Porsche 718 Cayman"),
+            ListCellModel(title: "Acura Integra")]))
     }
 }
 
