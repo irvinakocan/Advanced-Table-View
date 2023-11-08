@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         }
         let url = URL(fileURLWithPath: path)
         let player = AVPlayer(url: url)
-        player.volume = 0
+        player.volume = 10
         
         let headerView = UIView(frame: CGRect(x: 0,
                                               y: 0,
